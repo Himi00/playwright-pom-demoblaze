@@ -9,9 +9,11 @@ End-to-end test automation framework for the [Demoblaze](https://www.demoblaze.c
 - GitHub Actions (CI)
 
 ## Project Structure
+```
 Pages/        → Page classes (locators + actions)
 tests/        → Test files (steps + assertions)
 .env          → Credentials (not committed)
+```
 
 ## Test Scenarios
 - User can log in and add a product to the cart
