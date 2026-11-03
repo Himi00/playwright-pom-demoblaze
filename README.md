@@ -25,13 +25,25 @@ tests/        → Test files (steps + assertions)
 - Assertions kept in tests, locators kept in page objects
 
 ## How to Run
-1. Clone the repo and install dependencies:
-   npm install
-   npx playwright install
-2. Create a `.env` file in the project root:
-   DEMO_USERNAME=your_username
-   DEMO_PASSWORD=your_password
-3. Run the tests:
-   npx playwright test
-4. View the report:
-   npx playwright show-report
+
+**1. Clone the repo and install dependencies**
+```bash
+npm install
+npx playwright install
+```
+
+**2. Create a `.env` file in the project root**
+```
+DEMO_USERNAME=your_username
+DEMO_PASSWORD=your_password
+```
+
+**3. Run the tests**
+```bash
+npx playwright test
+```
+
+**4. View the report**
+```bash
+npx playwright show-report
+```
