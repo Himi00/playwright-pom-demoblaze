@@ -15,8 +15,8 @@ test ('User can login and add product to cart', async({page}) => {
     //home page
 
     const home = new HomePage(page);
-    await home.addProductToCart("Sony vaio i5");
-    await page.waitForTimeout(6000);
+    const message = await home.addProductToCart('Sony vaio i5');
+    expect(message).toContain('Product added');
     await home.gotoCart();
 
 
